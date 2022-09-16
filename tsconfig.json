@@ -21,7 +21,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "src",
-    "public/BerlinClock.test.js"
+    "src", 
   ]
 }
