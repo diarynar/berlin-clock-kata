@@ -1,4 +1,4 @@
-import { BerlinClock } from '../components/BerlinClock'
+import   BerlinClock   from '../components/BerlinClock'
 import { render } from '@testing-library/react'
 
 describe('BerlinClock should', () => {
@@ -6,7 +6,6 @@ describe('BerlinClock should', () => {
     const { getByTestId } = render(
       <BerlinClock times={['Y', 'ROOO', 'ROOO', 'OOOOOOOOOOO', 'OOOO']} />
     )
-
     const seconds = getByTestId('seconds')
     const hours = getByTestId('hours')
     const minutes = getByTestId('minutes')

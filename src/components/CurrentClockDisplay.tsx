@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 import BerlinClock from './BerlinClock'
 import DigitalClock from './DigitalClock'
 
-function BerlinClockContainer() {
+function CurrentClockDisplay() {
   const [time, setTime] = useState('')
 
   useEffect(() => {
@@ -26,4 +26,4 @@ function BerlinClockContainer() {
   )
 }
 
-export default BerlinClockContainer
+export default CurrentClockDisplay

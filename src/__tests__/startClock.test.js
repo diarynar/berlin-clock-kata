@@ -1,7 +1,6 @@
 import { startClock } from '../utils/utils'
 
 let _Date
-
 describe('startClock should', () => {
   test('display time in format hh:mm:ss format', () => {
     const MOCKED_DATE = new Date('2017-06-13T04:41:20')

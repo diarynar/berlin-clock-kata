@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react'
 
-import { Hours } from '../components/Hours'
+import  Hours  from '../components/Hours'
 
 afterEach(cleanup)
 

@@ -1,6 +1,6 @@
 import { cleanup, render } from '@testing-library/react'
 
-import { Seconds } from '../components/Seconds'
+import Seconds from '../components/Seconds'
 
 afterEach(cleanup)
 

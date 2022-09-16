@@ -13,7 +13,6 @@ describe('Berlin clock should', () => {
       expect(parseFullTime(date)).toEqual(secondsLight)
     }
   )
-
   it.each`
     date          | clockLight
     ${'00:01:00'} | ${['Y', 'OOOO', 'OOOO', 'OOOOOOOOOOO', 'YOOO', 'YOOOOOOOOOOOOOOOOOOOYOOO']}
